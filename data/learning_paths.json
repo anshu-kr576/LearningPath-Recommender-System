@@ -1,0 +1,951 @@
+[
+  {
+    "id": "deep-learning",
+    "title": "Deep Learning",
+    "description": "Learn neural networks, deep learning concepts, and frameworks for AI applications.",
+    "topics": [
+      {
+        "id": "python",
+        "title": "Python Basics",
+        "description": "Learn Python syntax, functions, loops, data structures, and object-oriented programming.",
+        "estimated_hours": 8,
+        "prerequisites": [],
+        "resources": [
+          {
+            "name": "Python Official Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Beginner",
+        "keywords": [
+          "python",
+          "python basics",
+          "python programming"
+        ]
+      },
+      {
+        "id": "math-ml",
+        "title": "Mathematics for Machine Learning",
+        "description": "Learn linear algebra, calculus, probability, and statistics for machine learning.",
+        "estimated_hours": 12,
+        "prerequisites": [
+          "python"
+        ],
+        "resources": [
+          {
+            "name": "Khan Academy",
+            "url": "https://www.khanacademy.org/math",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Intermediate",
+        "keywords": [
+          "math",
+          "maths",
+          "linear algebra",
+          "calculus",
+          "probability"
+        ]
+      },
+      {
+        "id": "machine-learning",
+        "title": "Machine Learning Basics",
+        "description": "Understand supervised learning, unsupervised learning, model training, and evaluation.",
+        "estimated_hours": 15,
+        "prerequisites": [
+          "python",
+          "math-ml"
+        ],
+        "resources": [
+          {
+            "name": "Google Machine Learning Crash Course",
+            "url": "https://developers.google.com/machine-learning/crash-course",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Intermediate",
+        "keywords": [
+          "machine learning",
+          "ml",
+          "scikit learn"
+        ]
+      },
+      {
+        "id": "neural-networks",
+        "title": "Neural Networks",
+        "description": "Learn neurons, activation functions, forward propagation, backpropagation, and optimization.",
+        "estimated_hours": 12,
+        "prerequisites": [
+          "machine-learning"
+        ],
+        "resources": [
+          {
+            "name": "3Blue1Brown Neural Networks",
+            "url": "https://www.3blue1brown.com/topics/neural-networks",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Advanced",
+        "keywords": [
+          "neural networks",
+          "neural network",
+          "backpropagation"
+        ]
+      },
+      {
+        "id": "deep-learning-frameworks",
+        "title": "Deep Learning Frameworks",
+        "description": "Build and train deep learning models using PyTorch or TensorFlow.",
+        "estimated_hours": 10,
+        "prerequisites": [
+          "neural-networks"
+        ],
+        "resources": [
+          {
+            "name": "PyTorch Tutorials",
+            "url": "https://pytorch.org/tutorials/",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Advanced",
+        "keywords": [
+          "pytorch",
+          "tensorflow",
+          "keras",
+          "deep learning frameworks"
+        ]
+      }
+    ],
+    "tags": [
+      "ai",
+      "neural network",
+      "pytorch",
+      "tensorflow",
+      "deep learning",
+      "artificial intelligence"
+    ],
+    "icon": "DL"
+  },
+  {
+    "id": "web-development",
+    "title": "Web Development",
+    "description": "Learn frontend and backend web development to build complete web applications.",
+    "topics": [
+      {
+        "id": "html-css",
+        "title": "HTML and CSS",
+        "description": "Learn web page structure, semantic HTML, styling, layouts, and responsive design.",
+        "estimated_hours": 10,
+        "prerequisites": [],
+        "resources": [
+          {
+            "name": "MDN Web Docs",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Beginner",
+        "keywords": [
+          "html",
+          "css",
+          "html and css",
+          "html css"
+        ]
+      },
+      {
+        "id": "javascript",
+        "title": "JavaScript",
+        "description": "Learn variables, functions, arrays, objects, DOM manipulation, and asynchronous JavaScript.",
+        "estimated_hours": 15,
+        "prerequisites": [
+          "html-css"
+        ],
+        "resources": [
+          {
+            "name": "JavaScript Guide",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Beginner",
+        "keywords": [
+          "javascript",
+          "js",
+          "es6"
+        ]
+      },
+      {
+        "id": "react",
+        "title": "React",
+        "description": "Learn components, props, state, hooks, and frontend application development.",
+        "estimated_hours": 15,
+        "prerequisites": [
+          "javascript"
+        ],
+        "resources": [
+          {
+            "name": "React Documentation",
+            "url": "https://react.dev/learn",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Intermediate",
+        "keywords": [
+          "react",
+          "reactjs",
+          "react js"
+        ]
+      },
+      {
+        "id": "backend",
+        "title": "Backend Development",
+        "description": "Learn APIs, servers, authentication, databases, and backend application design.",
+        "estimated_hours": 20,
+        "prerequisites": [
+          "javascript"
+        ],
+        "resources": [
+          {
+            "name": "Node.js Learn",
+            "url": "https://nodejs.org/en/learn",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Intermediate",
+        "keywords": [
+          "backend",
+          "node",
+          "nodejs",
+          "node js",
+          "express",
+          "rest api"
+        ]
+      }
+    ],
+    "tags": [
+      "website",
+      "frontend",
+      "backend",
+      "html",
+      "react",
+      "full stack",
+      "web developer"
+    ],
+    "icon": "WEB"
+  },
+  {
+    "id": "data-science",
+    "title": "Data Science",
+    "description": "Learn data analysis, statistics, visualization, and machine learning.",
+    "topics": [
+      {
+        "id": "python-data",
+        "title": "Python for Data Science",
+        "description": "Learn Python programming for working with and analyzing datasets.",
+        "estimated_hours": 8,
+        "prerequisites": [],
+        "resources": [
+          {
+            "name": "Python Official Tutorial",
+            "url": "https://docs.python.org/3/tutorial/",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Beginner",
+        "keywords": [
+          "python",
+          "python for data science"
+        ]
+      },
+      {
+        "id": "statistics",
+        "title": "Statistics and Probability",
+        "description": "Learn descriptive statistics, probability distributions, and statistical inference.",
+        "estimated_hours": 12,
+        "prerequisites": [
+          "python-data"
+        ],
+        "resources": [
+          {
+            "name": "Khan Academy Statistics",
+            "url": "https://www.khanacademy.org/math/statistics-probability",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Intermediate",
+        "keywords": [
+          "statistics",
+          "stats",
+          "probability"
+        ]
+      },
+      {
+        "id": "data-analysis",
+        "title": "Data Analysis with Pandas",
+        "description": "Learn data cleaning, filtering, grouping, and analysis using Pandas.",
+        "estimated_hours": 10,
+        "prerequisites": [
+          "python-data",
+          "statistics"
+        ],
+        "resources": [
+          {
+            "name": "Pandas Getting Started",
+            "url": "https://pandas.pydata.org/docs/getting_started/",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Intermediate",
+        "keywords": [
+          "pandas",
+          "numpy",
+          "data analysis"
+        ]
+      },
+      {
+        "id": "data-visualization",
+        "title": "Data Visualization",
+        "description": "Learn how to communicate insights using charts and plots.",
+        "estimated_hours": 8,
+        "prerequisites": [
+          "data-analysis"
+        ],
+        "resources": [
+          {
+            "name": "Matplotlib Tutorials",
+            "url": "https://matplotlib.org/stable/tutorials/",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Intermediate",
+        "keywords": [
+          "data visualization",
+          "matplotlib",
+          "seaborn",
+          "visualization"
+        ]
+      },
+      {
+        "id": "ml-data-science",
+        "title": "Machine Learning for Data Science",
+        "description": "Learn to train, evaluate, and improve predictive models from data.",
+        "estimated_hours": 15,
+        "prerequisites": [
+          "data-analysis"
+        ],
+        "resources": [
+          {
+            "name": "Scikit-learn Tutorials",
+            "url": "https://scikit-learn.org/stable/tutorial/index.html",
+            "type": "Docs"
+          }
+        ],
+        "difficulty": "Intermediate",
+        "keywords": [
+          "machine learning",
+          "ml",
+          "scikit learn"
+        ]
+      }
+    ],
+    "tags": [
+      "data analysis",
+      "pandas",
+      "statistics",
+      "analytics",
+      "data scientist",
+      "visualization"
+    ],
+    "icon": "DS"
+  },
+  {
+    "id": "dsa",
+    "title": "Data Structures & Algorithms",
+    "icon": "DSA",
+    "description": "Master core data structures, algorithm design, complexity analysis and problem solving for coding interviews and competitive programming.",
+    "tags": [
+      "dsa",
+      "coding interview",
+      "competitive programming",
+      "leetcode",
+      "algorithms",
+      "placement",
+      "data structures"
+    ],
+    "topics": [
+      {
+        "id": "programming-basics",
+        "title": "Programming Fundamentals",
+        "description": "Variables, control flow, functions and recursion in a language of your choice (C++, Java or Python).",
+        "estimated_hours": 12,
+        "difficulty": "Beginner",
+        "prerequisites": [],
+        "keywords": [
+          "programming",
+          "c++",
+          "java",
+          "coding basics",
+          "python"
+        ],
+        "resources": [
+          {
+            "name": "CS50x - Introduction to Computer Science",
+            "url": "https://cs50.harvard.edu/x/",
+            "type": "Course"
+          }
+        ]
+      },
+      {
+        "id": "complexity",
+        "title": "Time and Space Complexity",
+        "description": "Big-O notation, analysing loops and recursion, and reasoning about the cost of an algorithm.",
+        "estimated_hours": 6,
+        "difficulty": "Beginner",
+        "prerequisites": [
+          "programming-basics"
+        ],
+        "keywords": [
+          "big o",
+          "complexity",
+          "time complexity"
+        ],
+        "resources": [
+          {
+            "name": "Big-O Cheat Sheet",
+            "url": "https://www.bigocheatsheet.com/",
+            "type": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "arrays-strings",
+        "title": "Arrays, Strings and Hashing",
+        "description": "Two pointers, sliding window, prefix sums and hash maps for fast lookups.",
+        "estimated_hours": 14,
+        "difficulty": "Beginner",
+        "prerequisites": [
+          "complexity"
+        ],
+        "keywords": [
+          "arrays",
+          "strings",
+          "hashing",
+          "hash map",
+          "two pointers"
+        ],
+        "resources": [
+          {
+            "name": "NeetCode Roadmap",
+            "url": "https://neetcode.io/roadmap",
+            "type": "Practice"
+          }
+        ]
+      },
+      {
+        "id": "linked-stack-queue",
+        "title": "Linked Lists, Stacks and Queues",
+        "description": "Pointer manipulation, monotonic stacks, queues and deques.",
+        "estimated_hours": 12,
+        "difficulty": "Intermediate",
+        "prerequisites": [
+          "arrays-strings"
+        ],
+        "keywords": [
+          "linked list",
+          "stack",
+          "queue"
+        ],
+        "resources": [
+          {
+            "name": "GeeksforGeeks - Data Structures",
+            "url": "https://www.geeksforgeeks.org/data-structures/",
+            "type": "Docs"
+          }
+        ]
+      },
+      {
+        "id": "trees-graphs",
+        "title": "Trees and Graphs",
+        "description": "Binary trees, BST, heaps, BFS/DFS, shortest paths and topological sort.",
+        "estimated_hours": 24,
+        "difficulty": "Intermediate",
+        "prerequisites": [
+          "linked-stack-queue"
+        ],
+        "keywords": [
+          "trees",
+          "graphs",
+          "bfs",
+          "dfs",
+          "binary tree"
+        ],
+        "resources": [
+          {
+            "name": "Visualgo",
+            "url": "https://visualgo.net/en",
+            "type": "Interactive"
+          }
+        ]
+      },
+      {
+        "id": "dp-greedy",
+        "title": "Recursion, Backtracking and Dynamic Programming",
+        "description": "Break problems into subproblems, memoisation, tabulation and greedy strategies.",
+        "estimated_hours": 28,
+        "difficulty": "Advanced",
+        "prerequisites": [
+          "trees-graphs"
+        ],
+        "keywords": [
+          "dynamic programming",
+          "dp",
+          "backtracking",
+          "recursion",
+          "greedy"
+        ],
+        "resources": [
+          {
+            "name": "MIT 6.006 Introduction to Algorithms",
+            "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+            "type": "Course"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "devops-cloud",
+    "title": "DevOps & Cloud",
+    "icon": "OPS",
+    "description": "Learn Linux, Git, Docker, CI/CD, Kubernetes and cloud infrastructure to deploy and operate applications reliably.",
+    "tags": [
+      "devops",
+      "cloud",
+      "docker",
+      "kubernetes",
+      "aws",
+      "ci cd",
+      "deployment",
+      "sre",
+      "infrastructure"
+    ],
+    "topics": [
+      {
+        "id": "linux-shell",
+        "title": "Linux and Shell Scripting",
+        "description": "Filesystem, permissions, processes, networking tools and bash scripting.",
+        "estimated_hours": 12,
+        "difficulty": "Beginner",
+        "prerequisites": [],
+        "keywords": [
+          "linux",
+          "bash",
+          "shell",
+          "terminal",
+          "command line"
+        ],
+        "resources": [
+          {
+            "name": "Linux Journey",
+            "url": "https://linuxjourney.com/",
+            "type": "Interactive"
+          }
+        ]
+      },
+      {
+        "id": "git",
+        "title": "Git and Version Control",
+        "description": "Commits, branches, merging, rebasing and collaboration workflows on GitHub.",
+        "estimated_hours": 6,
+        "difficulty": "Beginner",
+        "prerequisites": [],
+        "keywords": [
+          "git",
+          "github",
+          "version control"
+        ],
+        "resources": [
+          {
+            "name": "Pro Git Book",
+            "url": "https://git-scm.com/book/en/v2",
+            "type": "Book"
+          }
+        ]
+      },
+      {
+        "id": "networking",
+        "title": "Networking Basics",
+        "description": "TCP/IP, DNS, HTTP, TLS, load balancers and firewalls.",
+        "estimated_hours": 8,
+        "difficulty": "Beginner",
+        "prerequisites": [
+          "linux-shell"
+        ],
+        "keywords": [
+          "networking",
+          "dns",
+          "http",
+          "tcp ip"
+        ],
+        "resources": [
+          {
+            "name": "MDN - How the Web Works",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_Web_works",
+            "type": "Docs"
+          }
+        ]
+      },
+      {
+        "id": "docker",
+        "title": "Docker and Containers",
+        "description": "Images, containers, volumes, networks and Docker Compose.",
+        "estimated_hours": 12,
+        "difficulty": "Intermediate",
+        "prerequisites": [
+          "linux-shell",
+          "git"
+        ],
+        "keywords": [
+          "docker",
+          "containers",
+          "docker compose"
+        ],
+        "resources": [
+          {
+            "name": "Docker Get Started",
+            "url": "https://docs.docker.com/get-started/",
+            "type": "Docs"
+          }
+        ]
+      },
+      {
+        "id": "ci-cd",
+        "title": "CI/CD Pipelines",
+        "description": "Automate build, test and deploy with GitHub Actions.",
+        "estimated_hours": 10,
+        "difficulty": "Intermediate",
+        "prerequisites": [
+          "docker"
+        ],
+        "keywords": [
+          "ci cd",
+          "github actions",
+          "jenkins",
+          "pipelines"
+        ],
+        "resources": [
+          {
+            "name": "GitHub Actions Documentation",
+            "url": "https://docs.github.com/en/actions",
+            "type": "Docs"
+          }
+        ]
+      },
+      {
+        "id": "cloud-basics",
+        "title": "Cloud Fundamentals (AWS)",
+        "description": "Compute, storage, IAM, VPC and managed databases on AWS.",
+        "estimated_hours": 18,
+        "difficulty": "Intermediate",
+        "prerequisites": [
+          "networking",
+          "docker"
+        ],
+        "keywords": [
+          "aws",
+          "cloud",
+          "azure",
+          "gcp",
+          "ec2",
+          "s3"
+        ],
+        "resources": [
+          {
+            "name": "AWS Skill Builder",
+            "url": "https://skillbuilder.aws/",
+            "type": "Course"
+          }
+        ]
+      },
+      {
+        "id": "kubernetes",
+        "title": "Kubernetes",
+        "description": "Pods, deployments, services, config and scaling workloads on a cluster.",
+        "estimated_hours": 20,
+        "difficulty": "Advanced",
+        "prerequisites": [
+          "docker",
+          "cloud-basics"
+        ],
+        "keywords": [
+          "kubernetes",
+          "k8s",
+          "helm"
+        ],
+        "resources": [
+          {
+            "name": "Kubernetes Basics Tutorial",
+            "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mobile-react-native",
+    "title": "Mobile App Development",
+    "icon": "APP",
+    "description": "Build cross-platform Android and iOS apps with React Native, from UI components to publishing on the app stores.",
+    "tags": [
+      "mobile",
+      "android",
+      "ios",
+      "react native",
+      "app development",
+      "flutter",
+      "mobile app"
+    ],
+    "topics": [
+      {
+        "id": "js-essentials",
+        "title": "JavaScript Essentials",
+        "description": "Modern JavaScript: ES6 syntax, async/await, modules and array methods.",
+        "estimated_hours": 14,
+        "difficulty": "Beginner",
+        "prerequisites": [],
+        "keywords": [
+          "javascript",
+          "js",
+          "es6"
+        ],
+        "resources": [
+          {
+            "name": "javascript.info",
+            "url": "https://javascript.info/",
+            "type": "Tutorial"
+          }
+        ]
+      },
+      {
+        "id": "react-basics",
+        "title": "React Fundamentals",
+        "description": "Components, props, state, hooks and rendering.",
+        "estimated_hours": 14,
+        "difficulty": "Intermediate",
+        "prerequisites": [
+          "js-essentials"
+        ],
+        "keywords": [
+          "react",
+          "reactjs",
+          "hooks"
+        ],
+        "resources": [
+          {
+            "name": "React - Learn",
+            "url": "https://react.dev/learn",
+            "type": "Docs"
+          }
+        ]
+      },
+      {
+        "id": "react-native-core",
+        "title": "React Native Core",
+        "description": "Core components, styling with Flexbox, navigation and Expo tooling.",
+        "estimated_hours": 16,
+        "difficulty": "Intermediate",
+        "prerequisites": [
+          "react-basics"
+        ],
+        "keywords": [
+          "react native",
+          "expo",
+          "mobile"
+        ],
+        "resources": [
+          {
+            "name": "React Native Docs",
+            "url": "https://reactnative.dev/docs/getting-started",
+            "type": "Docs"
+          }
+        ]
+      },
+      {
+        "id": "mobile-data",
+        "title": "Networking and Local Storage",
+        "description": "Fetch APIs, AsyncStorage, SQLite and offline-first patterns.",
+        "estimated_hours": 10,
+        "difficulty": "Intermediate",
+        "prerequisites": [
+          "react-native-core"
+        ],
+        "keywords": [
+          "api",
+          "async storage",
+          "sqlite",
+          "offline"
+        ],
+        "resources": [
+          {
+            "name": "Expo Docs - Data",
+            "url": "https://docs.expo.dev/",
+            "type": "Docs"
+          }
+        ]
+      },
+      {
+        "id": "mobile-release",
+        "title": "Testing, Build and Publishing",
+        "description": "Device testing, performance, EAS builds and Play Store / App Store release.",
+        "estimated_hours": 10,
+        "difficulty": "Advanced",
+        "prerequisites": [
+          "mobile-data"
+        ],
+        "keywords": [
+          "publishing",
+          "play store",
+          "app store",
+          "eas"
+        ],
+        "resources": [
+          {
+            "name": "Expo - Submit to app stores",
+            "url": "https://docs.expo.dev/submit/introduction/",
+            "type": "Docs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cybersecurity",
+    "title": "Cybersecurity Fundamentals",
+    "icon": "SEC",
+    "description": "Understand networks, web vulnerabilities, cryptography and ethical hacking to start a career in security.",
+    "tags": [
+      "security",
+      "cyber security",
+      "hacking",
+      "ethical hacking",
+      "pentest",
+      "infosec",
+      "ctf"
+    ],
+    "topics": [
+      {
+        "id": "sec-networking",
+        "title": "Networking for Security",
+        "description": "Protocols, ports, packet analysis with Wireshark and common network attacks.",
+        "estimated_hours": 12,
+        "difficulty": "Beginner",
+        "prerequisites": [],
+        "keywords": [
+          "networking",
+          "wireshark",
+          "tcp ip"
+        ],
+        "resources": [
+          {
+            "name": "Cisco Networking Basics",
+            "url": "https://www.netacad.com/courses/networking/networking-basics",
+            "type": "Course"
+          }
+        ]
+      },
+      {
+        "id": "sec-linux",
+        "title": "Linux for Security",
+        "description": "Command line, permissions, logs and privilege escalation basics.",
+        "estimated_hours": 10,
+        "difficulty": "Beginner",
+        "prerequisites": [],
+        "keywords": [
+          "linux",
+          "bash",
+          "command line"
+        ],
+        "resources": [
+          {
+            "name": "OverTheWire: Bandit",
+            "url": "https://overthewire.org/wargames/bandit/",
+            "type": "Practice"
+          }
+        ]
+      },
+      {
+        "id": "crypto",
+        "title": "Cryptography Basics",
+        "description": "Hashing, symmetric and asymmetric encryption, TLS and PKI.",
+        "estimated_hours": 10,
+        "difficulty": "Intermediate",
+        "prerequisites": [
+          "sec-networking"
+        ],
+        "keywords": [
+          "cryptography",
+          "encryption",
+          "hashing"
+        ],
+        "resources": [
+          {
+            "name": "Cryptography I (Stanford)",
+            "url": "https://www.coursera.org/learn/crypto",
+            "type": "Course"
+          }
+        ]
+      },
+      {
+        "id": "web-security",
+        "title": "Web Application Security",
+        "description": "OWASP Top 10: injection, XSS, CSRF, broken auth and secure design.",
+        "estimated_hours": 16,
+        "difficulty": "Intermediate",
+        "prerequisites": [
+          "sec-networking",
+          "sec-linux"
+        ],
+        "keywords": [
+          "owasp",
+          "web security",
+          "sql injection",
+          "xss"
+        ],
+        "resources": [
+          {
+            "name": "PortSwigger Web Security Academy",
+            "url": "https://portswigger.net/web-security",
+            "type": "Interactive"
+          }
+        ]
+      },
+      {
+        "id": "pentest",
+        "title": "Penetration Testing and CTFs",
+        "description": "Recon, exploitation, post-exploitation and reporting with hands-on labs.",
+        "estimated_hours": 24,
+        "difficulty": "Advanced",
+        "prerequisites": [
+          "web-security",
+          "crypto"
+        ],
+        "keywords": [
+          "pentest",
+          "penetration testing",
+          "ctf",
+          "metasploit",
+          "kali"
+        ],
+        "resources": [
+          {
+            "name": "TryHackMe",
+            "url": "https://tryhackme.com/",
+            "type": "Practice"
+          }
+        ]
+      }
+    ]
+  }
+]

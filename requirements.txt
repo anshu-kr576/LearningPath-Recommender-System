@@ -1,0 +1,10 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+scikit-learn>=1.4
+numpy>=1.26
+# Semantic matching (optional - falls back to TF-IDF if missing)
+sentence-transformers>=2.7
+# Tests
+pytest>=8
+httpx>=0.27
