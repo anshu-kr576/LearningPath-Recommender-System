@@ -40,8 +40,12 @@ export default function PlannerForm({
   const extra = knownSkills.filter((s) => !skillOptions.includes(s));
 
   return (
-    <form className="planner" onSubmit={onSubmit}>
-      <h2 className="panel-title">Plan your path</h2>
+    <form className="planner" id="plan-builder" onSubmit={onSubmit}>
+      <div className="planner-heading">
+        <span className="section-index">01 <span>/</span> YOUR GOAL</span>
+        <h2 className="panel-title">Build your plan</h2>
+        <p className="planner-intro">A few details help us shape a path that feels like yours.</p>
+      </div>
 
       <label htmlFor="goal">What do you want to learn?</label>
       <textarea

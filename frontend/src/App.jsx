@@ -132,19 +132,70 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <a className="brand" href="/">
-          <span className="brand-mark">L</span>
-          LearnPath
-        </a>
-        <button
-          type="button"
-          className="btn-secondary"
-          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} theme`}
-        >
-          {theme === "dark" ? "Light" : "Dark"}
-        </button>
+        <div className="topbar-inner">
+          <a className="brand" href="/" aria-label="LearnPath home">
+            <span className="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M6 5v14h12M6 12h8M6 5h6" />
+              </svg>
+            </span>
+            <span>learnpath<span className="brand-period">.</span></span>
+          </a>
+          <nav className="nav-links" aria-label="Main navigation">
+            <a href="#paths">Explore paths</a>
+            <a href="#plan-builder">Build a plan</a>
+          </nav>
+          <button
+            type="button"
+            className="theme-toggle"
+            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} theme`}
+          >
+            <span aria-hidden="true">{theme === "dark" ? "☼" : "◐"}</span>
+            {theme === "dark" ? "Light mode" : "Dark mode"}
+          </button>
+        </div>
       </header>
+
+      <section className="hero" aria-labelledby="hero-title">
+        <div className="hero-copy">
+          <p className="hero-badge">
+            <span className="badge-spark" aria-hidden="true">✦</span>
+            A clearer way to learn
+          </p>
+          <h1 id="hero-title">
+            Big goals.
+            <br />
+            <span>A path to get there.</span>
+          </h1>
+          <p className="hero-description">
+            Turn what you want to learn into a focused roadmap, built around
+            your skills, your schedule, and your pace.
+          </p>
+          <a className="hero-cta" href="#plan-builder">
+            Create your learning path <span aria-hidden="true">↗</span>
+          </a>
+          <div className="hero-highlights" aria-label="Planner features">
+            <span><i aria-hidden="true">✓</i> Skill-aware recommendations</span>
+            <span><i aria-hidden="true">✓</i> A schedule that fits your life</span>
+          </div>
+        </div>
+        <div className="hero-art" aria-hidden="true">
+          <div className="hero-orbit orbit-outer" />
+          <div className="hero-orbit orbit-inner" />
+          <div className="hero-spark spark-one">✦</div>
+          <div className="hero-spark spark-two">✧</div>
+          <div className="hero-emblem">
+            <div className="emblem-ring">
+              <svg viewBox="0 0 120 120" fill="none">
+                <path d="M38 81V39c0-3 3-5 6-3l16 12 16-12c3-2 6 0 6 3v42" />
+                <path d="M47 64h26M51 74h18" />
+              </svg>
+            </div>
+            <span>Make progress<br />feel possible</span>
+          </div>
+        </div>
+      </section>
 
       <main className="layout">
         <aside className="sidebar">
@@ -185,6 +236,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
+        <span className="footer-mark" aria-hidden="true">✦</span>
         Matches are made with sentence embeddings (SBERT). Progress is saved in your browser.
       </footer>
     </div>

@@ -46,10 +46,10 @@ export default function Roadmap({
     );
 
   return (
-    <article className="result">
+    <article className="result" id="roadmap">
       <header className="result-head">
         <div>
-          <p className="eyebrow">Recommended path</p>
+          <p className="eyebrow"><span aria-hidden="true">✦</span> Your personalized roadmap</p>
           <h2>{result.recommended_path}</h2>
           <p className="muted">{result.path_description}</p>
         </div>
